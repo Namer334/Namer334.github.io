@@ -1,0 +1,62 @@
+<!DOCTYPE HTML>
+<!--
+	Projection by OG_BRED
+-->
+  <html>
+        <head>
+		
+		<title>Discord</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<link rel="stylesheet" href="assets/css/main.css" />
+	
+	</head>
+	
+		<!-- Header -->
+			<header id="header">
+				<div class="inner">
+					<nav id="nav">
+						<a href="index.html">Home</a>
+						<a href="applications.html">Applications / Appeals</a>
+						<a href="topics.html">Topics (Work in progress)</a>
+					</nav>
+					<a href="#navPanel" class="navPanelToggle"><span class="fa fa-bars"></span></a>
+				</div>
+			</header>
+	
+		<!-- Banner -->
+			<section id="banner">
+				<div class="inner">
+					<header>
+						<h1>Welcome to The Official Gaming Server</h1>
+					</header>
+
+					<footer>
+						<a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ" class="button">The Bois Channel</a>
+						<a href="https://discord.com/channels/@me/810897924166123620" class="button">DM staff</a>
+						<a href="https://discord.gg/8Rk8njCkgN" class="button">Join The Server</a>
+						<a href="https://cdn.discordapp.com/attachments/776470457636487168/812070841239076864/staff-chat_-_Discord_2_18_2021_2_17_21_PM_2.png" class="button">Our Bots</a>
+						<a href="https://discord.gg/AVaCBH42Yb" class="button">Partner Servers</a>
+					</footer>
+				</div>
+			</section>
+
+
+		<!-- Footer -->
+			<footer id="footer">
+				<div class="inner">
+					
+				</div>
+			</footer>
+
+		<!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/skel.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<script src="assets/js/main.js"></script>
+			<script src="https://unpkg.com/scrollreveal/dist/scrollreveal.min.js"></script>
+			
+	
+	
+	</body>
+</html>
