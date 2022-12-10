@@ -17,13 +17,9 @@
 			<header id="header">
 				<div class="inner">
 					<nav id="nav">
-						function scrollToAnchor(aid){
-    var aTag = $("a[name='"+ aid +"']");
-    $('html,body').animate({scrollTop: aTag.offset().top},'slow');
-}
-
-$("#section-2").click(function() {
-   scrollToAnchor('section-2');
+						$('a[href^=\\#section-2]').on('click', function(event){     
+    event.preventDefault();
+    $('html,body').animate({scrollTop:$(this.hash).offset().top}, 500);
 });
 						<a href="#section-1">Home</a><br />
 				<a href="#section-2">Applications and Appeals</a><br />
