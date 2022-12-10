@@ -17,10 +17,8 @@
 			<header id="header">
 				<div class="inner">
 					<nav id="nav">
-						$('a[href^=\\#section-2]').on('click', function(event){     
-    event.preventDefault();
-    $('html,body').animate({scrollTop:$(this.hash).offset().top}, 500);
-});
+						document.getElementById('section-2').scrollIntoView({
+  behavior: 'smooth'
 						<a href="#section-1">Home</a><br />
 				<a href="#section-2">Applications and Appeals</a><br />
 						<a href="#section-3">Topics</a><br />
